@@ -13,7 +13,7 @@ text-align: center;
 }
 
 .board {
-	height: 50%;
+	height: 80%;
 	width: 50%;
 	display: inline-block;
 }
@@ -21,11 +21,13 @@ text-align: center;
 .card {
 	height: 200px;
 	width: 150px;
-	border: 1px black solid;
-	background-color: yellow;
+	border: 2px black solid;
+	background-image: url(http://i.imgur.com/hKVeUh9.jpg);
+	background-size: cover;
 	border-radius: 10px;
 	float: left;
 	margin: 8%;
+	padding-bottom: 10px;
 }
 
 .name {
@@ -38,6 +40,7 @@ nav{
 
 a{
 	background-color: #ffbf00;
+	text-decoration: none;
 	color: white;
 	padding: 35px;
 	display: block;
@@ -60,4 +63,9 @@ a:hover {
 footer{
 	text-align: center;
 	background-color: #808080
+}
+
+img {
+	height: 200px;
+  width: 150px;
 }
